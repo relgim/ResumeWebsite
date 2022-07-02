@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js" defer></script>
+    <link href="style.css" rel="stylesheet">
+
+    <title>Ted Jang</title>
+</head>
+<body>
+    <div class = "navbar">
+        <p class="name-title"> Ted Jang</p>
+        <li class="tab" onclick="topFunction()">Home</li>
+        <li class="tab"><a href="#home">Education</a></li>
+        <li class="tab"><a href="#education">Courses</a></li>
+        <li class="tab"><a href="#classes">Projects</a></li>
+        <li class="tab"><a href="#projects">Languages</a></li>
+        <li class="tab"><a href="#skills">Contact Me</a></li>
+        <li class="tab"><a  onclick=" window.open('Resume Master2.pdf')">Resume</a></li>
+        
+        <a class="button" onclick=" window.open('https://github.com/relgim','_blank')"><img src="github-svgrepo-com (4).svg" height ="30" width="30"></a>
+        <a class="button" onclick=" window.open('https://www.linkedin.com/in/ted-jang-2b99a51ba/','_blank')" ><img src="linkedin-logo-svgrepo-com (1).svg" height ="30" width="30"></a>
+    </div>
+    <div id="home2"></div>
+    <div class = "tab-content">
+        <div id="home" data-tab-content class="active">
+            <div class="container top-buffer" id="home">
+                <p class="title-elements">About Me </p>
+                <img src="Ted.png" class="picture-left" style="max-width: 10vw;right: 10.5vw;">
+                <p class="text boxed"> 
+                    Hello, my name is Ted (Yun Ki) Jang. I am a recent graduate from Langara College and I'm currently looking for a job that will help me gain experience as I code. 
+                    I was one of those generic gamer kids in highschool, but quite competitive and successful in the gaming field. I met and played against professional gamers in every
+                    competitive games I've played. Such as League of Legends, CS:GO, Overwatch, Fortnite, etc. Needless to say, I earned money from all of these games, from local tournaments
+                    to major ones, biggest ones being Fortnite Winter Royale 2018 for $1,000,000. The reason why I was so good at games and enjoy coding is because I love the iterative aspect
+                    between the two. Every game and coding, it would require need a slight change to provide different results. These small changes and results would always drive me to make more
+                    of these changes leading to success. My main goal is to become a solid coder who is able to code his own game one day for public.
+                    </p>
+
+            </div>
+            <div class="space"></div>
+            <div class="container"  id="education">
+                <p class="title-elements">Education</p>
+                <img src="Langara.jpg" class="picture-right" style="max-width: 20vw;left: 21vw;">
+                <p class="text boxed"> 
+                    <b>Langara College</b> <br>
+                    Dates: Sep, 2016 - July 2022 <br>
+                    Location: Vancouver, BC <br><br>
+                    I started attending Langara College on September 2016 pursing Art as my major being interested in drawing at the time.
+                    However around 2018 I decided to switch my major towards Computer Science since I was also very interested in technology and how they were
+                    making changes toward the current environment.
+                    <br>
+                    At Langara, the teacher were great at teaching me the basics about computers and coding, at the start I enjoyed and excelled in most classes.
+                    
+                </p>
+            </div>
+            <div class="space" ></div>
+            <div class="container" id = "classes">
+                <p class="title-elements"><br>Courses</p>
+                <img src="courses.jpg" class="picture-left" style="max-width: 20vw;right: 21vw;">
+
+
+                <div class="grid-container boxed">
+                    <div class="item"><b>CPSC 1050</b>		Intro to Computer Science</div>
+                    <div class="item"><b>CPSC 1150</b>		Program Design</div>
+                    <div class="item"><b>CPSC 1181</b>		Object-Oriented Computing</div>  
+                    <div class="item"><b>CPSC 1160</b>		Algrthms & Data Strctrs I</div>
+                    <div class="item"><b>CPSC 1280</b>		Unix Tools and Scripting</div>
+                    <div class="item"><b>CPSC 1480</b>		Networking</div>
+                    <div class="item"><b>CPSC 2150</b>		Algrthms & Data Strctrs II</div>
+                    <div class="item"><b>CPSC 2190</b>		Theoretical Founds of Comp Sci</div>
+                    <div class="item"><b>CPSC 2221</b>		Database Systems</div>
+                    <div class="item"><b>MATH 2362</b>		Linear Algebra</div>
+                    <div class="item"><b>MATH 1271</b>		Calculus I</div>
+                    <div class="item"><b>MATH 1271</b>		Calculus II</div>    
+                </div>
+            </div>
+            <div class="space"></div>
+
+
+            <div class="container" id="projects">
+                <p class="title-elements"><br>Projects </p>
+                <iframe class="video-left" src="https://www.youtube.com/embed/POandAncB3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video-right"  src="https://www.youtube.com/embed/ZeNLpcNkmeg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="grid-container2 boxed">
+                    <div class="item">
+                        <b>
+                            Hotel Website 
+                            <br>
+                        </b>
+                        <br>			SQL Database
+                        <p> A school project where our main objective was to utilizie the SQL Database to store customer, room, and user information, while being able to manipulate the information 
+                            with an admin account on the site.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <b>
+                            Peter Please - 
+                            <a href="https://ginaplease.netlify.app/">Link </a>
+                            <br>
+                        </b>
+                        <br>			Program Design
+                        <p> A replica of the famous, Peter Please, website. This was made for fun with the primary usage of BootStrap and JavaScript interaction with the html website.</p>
+                        
+                    </div>
+                    <div class="item">		
+                        <b>
+                            OpenCV Bot 
+                            <br>
+                        </b>
+                        <br>			Python Image Recognition Software
+                        <p> Using OpenCV with Python, made a working image capturing software that would impliment a certain task if specific images were recognized on screen.
+                        </p>
+                    </div>
+                    <div class="item">
+                        <b>
+                            Anime API - 
+                            <a href="https://infallible-wilson-9054d1.netlify.app/">Link </a>
+                            <br>
+                        </b>
+                        <br>
+                            REACT public API website
+                        <br>
+                        <p>Using REACT as our main template, made an anime database website that would obtain information from myanimelist.com api. 
+                            The site would be mainly used for people who would want to search anime, save, and change information as needed in their favourite tab.
+                        </p>
+
+                    </div> 
+                </div>
+            </div>
+            <div class="space"></div>
+            <div class="container"  id="skills">
+                <p class="title-elements">Languages</p>
+                <div class="grid-container3 boxed">
+                    <div class="item" style="list-style-type: none;">
+                        <li>
+                            <b>C++</b>  is the language I am the most comfortable and skilled with. It was the language that was taught to me the most in school with most of my assignments requiring it.
+                        </li>
+                        <li>
+                            <b>JavaScript</b> is one of the basic language I was required to learn during my first year at Langara. I was able to refresh it when writing scripts with html websites. But it wasn't so different from C++.
+                        </li>
+                        <li>
+                            <b>Python</b> is a language that I'm not as experience with, but can see myself being able to enjoy it. As some basic things from variables to loops are different from C++, it is a bit hard to get used to, but there are some tools that makes me prefer this program.
+                        </li>
+                        <li>
+                            <b>SQL</b> is a tool that helped me create my hotel website program. It was mainly used for database project, however it wasn't too difficult to learn as the teacher at Langara made it easy to learn the syntax.
+                        </li>
+                        <li>
+                            <b>HTML5</b> is probably one of the most used language when creating this and Peter Please website. I have used this language for around a week, and overall, I feel that I've gotten quite the grasp on it with CSS. 
+                        </li>
+                    </div>
+
+                </div>
+            </div>
+            <div class="space"></div>
+            <div class="container"  id="contact"><br>
+                <p class="title-elements">Contact Me!</p>
+                <p class="text boxed"> <br>
+                    <b>Phone Number: </b> 604-729-6535 <br><br>
+                    <b>E-mail: </b> tedjang2@gmail.com <br>
+                    
+                    
+                </p>
+            </div>
+            
+
+        </div>
+
+    </div>
+</body>
+</html>
